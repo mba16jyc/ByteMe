@@ -7,14 +7,8 @@ header {
   color: black;
 }
 
- @font-face {
-font-family: mono;
-src: url(/mono.otf);
-} 
-h1, strong {
-font-family: mono;
-src: url(/mono.otf);
-}
+h1 {
+  font-family: "mono"
   font-size: 56px;
   font-weight: bold;
   font-style: italic;
