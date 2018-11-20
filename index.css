@@ -15,6 +15,13 @@ a {
     color: Black;
     text-decoration: none;
 }
+header nav li {
+    line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.2rem;
+    margin-left: 0.6em;
+}
 h1 {
   font-family: "Helvetica"
   font-size: 56px;
