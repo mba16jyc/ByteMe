@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background: white;
 }
 header {
   text-align: center;
@@ -21,6 +21,7 @@ header nav li {
     vertical-align: middle;
     font-size: 1.2rem;
     margin-left: 0.6em;
+    colour: Black;
 }
 h1 {
   font-family: "Helvetica"
