@@ -11,17 +11,12 @@ header nav a {
     position: relative;
     display: block;
 }
-
-header nav a {
-    position: relative;
-    display: block;
-}
 a {
-    color: inherit;
+    color: Black;
     text-decoration: none;
 }
 h1 {
-  font-family: "mono"
+  font-family: "Helvetica"
   font-size: 56px;
   font-weight: bold;
   font-style: italic;
