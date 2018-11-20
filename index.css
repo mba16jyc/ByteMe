@@ -1,0 +1,28 @@
+body {
+  background: black;
+}
+header {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+h1{
+  font-size: 56px;
+  font-family: 'Arial', cursive;
+  padding: 25px 0px 0px 0px;
+  margin: 0 auto;
+  text-align: center;
+}
+ul {
+  background rgba(0,0,0,0.5);
+  padding: 10px
+}
+li {
+  display: inline;
+  font-family: verdana;
+  margin: 0 10px 0 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
