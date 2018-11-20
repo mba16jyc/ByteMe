@@ -11,7 +11,7 @@ header {
 font-family: mono;
 src: url(/mono.otf);
 } 
-h1 {
+h1, strong {
 font-family: mono;
 src: url(/mono.otf);
 }
