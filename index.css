@@ -1,14 +1,21 @@
 body {
-  background: black;
+  background: white;
 }
 header {
   text-align: center;
   margin: 0 auto;
   color: white;
 }
-h1{
+
+ @font-face {
+font-family: mono;
+src: url(/mono.otf);
+} 
+h1 {
+font-family: mono;
+src: url(/mono.otf);
+}
   font-size: 56px;
-  font-family: 'Arial', cursive;
   font-weight: bold;
   font-style: italic;
   padding: 25px 0px 0px 0px;
