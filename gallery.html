@@ -20,6 +20,15 @@
     </nav>
   </header>
 
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="CNV00005.jpg" style="width:width:600px;height:400px;padding: 50px 25px 0px 0px;">
+  <img class="mySlides" src="CNV00006.jpg" style="width:600px;height:400px;padding: 50px 25px 0px 0px;">
+  <img class="mySlides" src="img_mountains.jpg" style="width:100%">
+  <img class="mySlides" src="img_forest.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
                                  
 <div class="slideshow-container">
 
@@ -65,31 +74,23 @@
                                                                                                                                                                        
 <script>
 var slideIndex = 1;
-showSlides(slideIndex);
+showDivs(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function plusDivs(n) {
+  showDivs(slideIndex += n);
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
+function showDivs(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
+  x[slideIndex-1].style.display = "block";  
 }
-</script>                                                                                    
+</script>
+                                         
 </body>
 </html>
