@@ -32,14 +32,17 @@ h1 {
 }
 ul {
   background rgba(0,0,0,0.5);
-  padding: 10px
+  padding: 10px;
+  position: relative;
 }
-li {
+
+ul li {
   display: inline;
   font-family: 'Caveat', cursive;
   margin: 0 10px 0 10px;
 }
-a {
+
+ul li a {
   color: black;
   text-decoration: none;
 }
