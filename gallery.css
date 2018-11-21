@@ -1,24 +1,24 @@
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
+{box-sizing: border-box}
+body {font-family: 'Caveat', cursive
+mySlides {display: none}
+img {vertical-align: centre;}
 
 slideshow {
   max-width: 1000px;
-  position: relative;
-  margin: auto;
+  position: absolute;
+  margin: 100px;
 }
 
 prev, next {
   cursor: pointer;
-  position: absolute;
+  position: relative;
   top: 50%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -27,18 +27,7 @@ prev, next {
 next {
   right: 0;
   border-radius: 3px 0 0 3px;
-}
-
-prev:hover, next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+  user-select: none;
 }
 
 dot {
@@ -46,14 +35,14 @@ dot {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: white;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 active, dot:hover {
-  background-color: #717171;
+  background-color: black;
 }
 
 fade {
