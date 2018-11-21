@@ -49,6 +49,7 @@ ul li a {
 
 ul ul {
   position: absolute;
+  display: none;
 }
 
 ul ul li {
