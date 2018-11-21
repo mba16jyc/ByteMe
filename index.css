@@ -48,13 +48,12 @@ ul li a {
 }
 
 ul ul {
-  position: absolute;
+  position: relative;
   display: none;
 }
 
 ul ul li {
   display: block;
-  background: white; 
 }
 
 ul li:hover ul {
