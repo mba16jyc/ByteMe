@@ -60,4 +60,10 @@ ul ul li {
 ul li:hover ul {
   display: block;
 }
+
+ul li i {
+  colour: black; 
+  float: right;
+  padding-left: 20px;
+}
   
