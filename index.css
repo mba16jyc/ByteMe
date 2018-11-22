@@ -77,3 +77,8 @@ ul li i {
     right: 0;
     height:100px;
 }
+
+.footer a{
+  width: 10%;
+  size: 10%;
+}
