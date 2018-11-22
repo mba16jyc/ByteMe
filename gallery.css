@@ -3,17 +3,12 @@ body {font-family: 'Caveat', cursive
 mySlides {display: none}
 img {vertical-align: centre;}
 
-.slideshow_container {
-  margin: 0px auto;
+.slideshow {
+  max-width: 1000px;
+  position: absolute;
+  margin: 100px;
 }
 
-.slideshow div {
-  max-width: 1000px;
-  height 500px;
-  margin: 0px auto; // center
-  text-align: center;
-  }
-  
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
