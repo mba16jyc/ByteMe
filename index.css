@@ -48,7 +48,7 @@ ul li a {
 }
 
 ul ul {
-  position: relative;
+  position: center;
   display: none;
 }
 
@@ -65,4 +65,9 @@ ul li i {
   float: right;
   padding-left: 20px;
 }
+
+.footer {
+  position: relative;
+  clear: both;
+    }
   
