@@ -48,7 +48,7 @@ ul li a {
 }
 
 ul ul {
-  position: absolute;
+  position: relative;
   display: none;
 }
 
@@ -64,13 +64,5 @@ ul li i {
   colour: black; 
   float: right;
   padding-left: 20px;
-}
-
-.footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height:100px;
 }
   
