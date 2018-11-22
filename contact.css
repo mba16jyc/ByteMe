@@ -1,0 +1,45 @@
+body{
+  height: 1000px;
+  position: inherit;
+}
+.form-control{
+  width: 600px;
+  background: transparent;
+  border: black;
+  outline: none;
+  border-bottom: 1px solid gray;
+  colour: black;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 16px;
+  font-family: "Caveat", cursive;
+}
+
+.input{
+  height: 45px;
+}
+
+form .submit{
+  border-colour: transparent;
+  colour: black;
+  font-size: 30px;
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover{
+  background-colour: none;
+  cursor: pointer;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
