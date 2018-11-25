@@ -2,6 +2,7 @@ body{
   height: 1000px;
   position: inherit;
 }
+
 .form-control{
   width: 600px;
   background: transparent;
@@ -35,3 +36,12 @@ form .submit:hover{
   background-colour: none;
   cursor: pointer;
 }
+
+p {
+    font-family: 'Caveat', cursive;
+    font-size: 15px;
+    font-colour: black;
+    padding: 80px 0px 0px 0px;
+    margin: 0 auto;
+    text-align: center;
+  }

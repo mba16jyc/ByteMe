@@ -5,6 +5,7 @@ header {
   text-align: center;
   margin: 0 auto;
   color: black;
+  padding: 0px 0px 20px 0px;
 }
 
 header nav a {
@@ -25,11 +26,12 @@ header nav li {
 }
 h1 {
   font-family: 'Caveat', cursive;
-  font-size: 100px;
-  padding: 50px 0px 0px 0px;
+  font-size: 50px;
+  padding: 20px 0px 0px 0px;
   margin: 0 auto;
   text-align: center;
 }
+
 ul {
   background rgba(0,0,0,0.5);
   padding: 10px;
@@ -43,6 +45,7 @@ ul li {
 }
 
 ul li a {
+  font-size: 18px;
   color: black;
   text-decoration: none;
 }
@@ -61,23 +64,11 @@ ul li:hover ul {
 }
 
 ul li i {
-  colour: black; 
+  colour: black;
   float: right;
   padding-left: 20px;
 }
-  
+
 .body{
   margin-bottom:100px;
-} 
-
-.footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height:100px;
-}
-
-.footer a{
-  width: 10%;
 }
