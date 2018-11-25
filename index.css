@@ -72,3 +72,12 @@ ul li i {
 .body{
   margin-bottom:100px;
 }
+
+footer {
+  font-family: 'Caveat', cursive;
+  font-size: 15px;
+  padding: 20px 0px 0px 0px;
+  margin: 0 auto;
+  text-align: center;
+
+}
